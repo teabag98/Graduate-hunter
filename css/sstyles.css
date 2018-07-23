@@ -18,14 +18,30 @@ body{
 
 
 }
-.btn{
 
+#button-services{
+  border-radius: 30%;
+
+}
+#button-about{
+  border-radius: 30%;
+}
+
+#button-home{
+border-radius: 30%;
+/* scroll-behavior: smooth; */
 }
 #founder{
   /* text-align: center; */
   /* padding-right:70%; */
   padding-left: 5%;
 
+}
+.button-box{
+  position: absolute;
+  left: 10px;
+  top: 10px
+}
 }
 #about{
   font-family: serif;
