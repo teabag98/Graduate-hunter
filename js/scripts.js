@@ -1,12 +1,7 @@
-// user logic
-$(document).ready(function(){
-  $(".p1").hide()
-  $("#button-home").click(function(event){
-  $(".p1").show();
-
-
-
-
-
+$('.carousel').carousel({
+  interval: 2000
 });
-});
+$('#myCarousel').on('slide.bs.carousel', function () {
+  $('#myCarousel').on('slide.bs.carousel', function () {
+    // do something…
+  })
