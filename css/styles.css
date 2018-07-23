@@ -10,15 +10,24 @@ body{
 }
 .eric {
   float: left;
-  font-size: 50px;
+
 }
 .dropbtn {
   font-weight: bold;
+  font-size: 50px;
+  background-color: inherit;
+  font-family: inherit;
 }
-
 .dinah {
   float: right;
-  font-size: 50px;
+}
+.dropbtn:hover {
+  background-color: grey;
+  box-shadow: 3px 3px 3px black;
+}
+.dropdown-content a,.menu-content a {
+  display:block;
+  font-size: 30px;
 }
 .footer{
   background-color: #000864;
