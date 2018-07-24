@@ -43,12 +43,18 @@ input:checked ~ .content, input:checked ~.content1 {
   max-height: 100%;
 }
 
+/*.eric:hover .dropdown-content,.dinah:hover .menu-content {
+  display: block;
+}*/
+
 .footer{
   background-color: #000864;
   color: white;
   padding: 70px;
+
 }
 .btn{
+
 }
 #founder{
   text-align: center;
