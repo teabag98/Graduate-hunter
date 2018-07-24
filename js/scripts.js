@@ -1,6 +1,4 @@
 
-<<<<<<< HEAD
-=======
 
 
 
@@ -16,4 +14,3 @@ function myFunction() {
         x.style.display = "none";
     }
 }
->>>>>>> praxy
