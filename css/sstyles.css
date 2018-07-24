@@ -31,6 +31,59 @@ body{
   color: white;
   background-clip: border-box;
 
+} 
+
+body
+{
+    background-color: #1b1b1b;
+    padding-top: 40px;
+} 
+.form-signin {
+    max-width: 280px;
+    padding: 15px;
+    margin:100px;
+    margin-top:10px;
+  }
+
+.input-group-addon
+{
+    background-color: rgb(50, 118, 177);
+    border-color: rgb(40, 94, 142);
+    color: rgb(255, 255, 255);
+}
+.form-control:focus
+{
+    background-color: rgb(50, 118, 177);
+    border-color: rgb(40, 94, 142);
+    color: rgb(255, 255, 255);
+}
+.panel-default {
+opacity: 0.8;
+/*margin-top:30px;*/
+}
+.form-signup input[type="text"],.form-signup input[type="password"] { border: 1px solid rgb(50, 118, 177); }
+.fullscreen_bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('http://blog.transfer-iphone-recovery.com/images/photo-with-blur-background.jpg');
+    background-repeat:repeat;
+  } 
+
+
+#fullscreen_bg{
+  display: none;
+} 
+
+ul{
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
 }
 
 
@@ -123,4 +176,9 @@ ul#nav li.current a { color: #11ABB0; }
   height: 3px;
   background-color: #fff;
   margin-top: 10px;
+}
+li a{
+  background: orange;
+  padding: 20px;
+  border-radius: 5px; 
 }
