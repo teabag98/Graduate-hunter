@@ -1,10 +1,9 @@
 .jumbotron{
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYCq0CocoNQcN73OchdxhzVDDgp_cX9VeCgZ0CFHfnqMoPZvKQ);
+   background-color: #030073;
   text-align: center;
   color: white;
-
-
 }
+  
 body{
   background-image: url(https://media.istockphoto.com/vectors/seamless-pattern-with-graduation-cap-on-blue-background-vector-id610146456?k=6&m=610146456&s=612x612&w=0&h=SRRkSLqAD_hmX3r8aMYX0Y9hy55NVbVz1LVEMmEXAzw=);
 }
