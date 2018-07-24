@@ -8,24 +8,45 @@
 body{
   background-image: url(https://media.istockphoto.com/vectors/seamless-pattern-with-graduation-cap-on-blue-background-vector-id610146456?k=6&m=610146456&s=612x612&w=0&h=SRRkSLqAD_hmX3r8aMYX0Y9hy55NVbVz1LVEMmEXAzw=);
 
+.content,.content1 {
+  max-height:0px;
+  overflow: hidden;
 }
-.dropbtn {
-  font-weight: bold;
-  font-size: 50px;
-  background-color: inherit;
-  font-family: inherit;
+.drop,.menu {
+  background-color: #ffffcc;
+  border-bottom: 2px solid black;
+  box-shadow: 3px 3px 3px #3366cc;
 }
-.dinah {
-  float: right;
+.drop ul, .menu ul {
+  list-style-type: none;
+  padding:0px;
 }
-.dropbtn:hover {
-  background-color: grey;
-  box-shadow: 3px 3px 3px black;
+.drop ul a, .menu ul a  {
+  padding: 10px;
+  text-decoration: none;
+  display: block;
 }
-.dropdown-content a,.menu-content a {
-  display:block;
-  font-size: 30px;
+.drop label,.menu label{
+  display: block;
+  cursor: pointer;
+  padding:30px 0px 30px 30px;
 }
+input#drop,input#menu {
+   display: none;
+ }
+ /* toggle effect*/
+
+input:checked ~ label{
+  background:url("../ha/img/download.png")no repeat left center;
+}
+input:checked ~ .content, input:checked ~.content1 {
+  max-height: 100%;
+}
+
+/*.eric:hover .dropdown-content,.dinah:hover .menu-content {
+  display: block;
+}*/
+
 .footer{
   background-color: #000864;
   color: white;
