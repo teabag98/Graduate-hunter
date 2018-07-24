@@ -23,8 +23,6 @@ body{
   text-align: center;
   padding-right: 80%;
 }
-
-/* about section  */
 #about{
   font-family: serif;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmbnVBc65FPv17zJMqthP6yPXQtjmvDPw-3xRAhsrQEv6rgMrVsw);
@@ -85,6 +83,7 @@ ul{
   grid-template-columns: 1fr 1fr;
   text-align: center;
 }
+
 
 
 /* b. Header Styles
@@ -182,3 +181,4 @@ li a{
   padding: 20px;
   border-radius: 5px; 
 }
+

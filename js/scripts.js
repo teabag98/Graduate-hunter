@@ -1,4 +1,18 @@
 
+// user logic
+$(document).ready(function(){
+  $(".p1").hide()
+  $("#button-home").click(function(event){
+  $(".p1").show();
+
+
+
+
+
+});
+});
+
+
 /* Highlight the current section in the navigation bar
 ------------------------------------------------------*/
 
@@ -56,3 +70,4 @@ function myFunction() {
         x.style.display = "none";
     }
 }
+
