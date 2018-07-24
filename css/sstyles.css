@@ -16,9 +16,6 @@ body{
   padding: 70px;
 
 }
-.btn{
-
-}
 #founder{
   text-align: center;
   padding-right: 80%;
@@ -85,7 +82,60 @@ ul{
 }
 
 li a{
-  background: orange;
+  background: rgb(0, 119, 255);
   padding: 20px;
   border-radius: 5px; 
+}
+
+.contact-top h3 {
+	color: white;
+	font-size: 1em;
+	font-weight: 400;
+}
+.contact-top p {
+	font-size: 1em;
+	font-weight: 400;
+	color:white;
+}
+.contact-left input[type="text"] {
+	width: 45%;
+	padding: 8px;
+	font-size: 14px;
+	font-weight: 400;
+	color:white;
+	outline: none;
+	margin: 0px 0px 10px 0px;
+}
+.contact-left textarea {
+	outline: none;
+	resize: none;
+	font-size: 14px;
+	font-weight: 400;
+	width: 86.5%;
+	height: 15em;
+	padding: 10px;
+}
+.contact-left input[type="submit"] {
+	width: 20%;
+	padding: 10px;
+	background: #999;
+	outline: none;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
+ .contact-left input[type="submit"]:hover { 
+	 color: #fff; 
+   /*background-color:blue; */
+	 transition: all 0.3s ease; 
+	 -webkit-transition: all 0.3s ease; 
+	 -moz-transition: all 0.3s ease; 
+ } 
+ .contact{
+  margin: 0;
+  background-color: blue;
+} 
+
+#facebook{
+  color: #fff; 
 }
