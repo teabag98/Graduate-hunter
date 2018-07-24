@@ -1,0 +1,77 @@
+.jumbotron{
+   background-color: #030073;
+  text-align: center;
+  color: white;
+
+
+}
+body{
+  background-image: url(https://media.istockphoto.com/vectors/seamless-pattern-with-graduation-cap-on-blue-background-vector-id610146456?k=6&m=610146456&s=612x612&w=0&h=SRRkSLqAD_hmX3r8aMYX0Y9hy55NVbVz1LVEMmEXAzw=);
+
+}
+.dropbtn {
+  font-weight: bold;
+  font-size: 50px;
+  background-color: inherit;
+  font-family: inherit;
+}
+.dinah {
+  float: right;
+}
+.dropbtn:hover {
+  background-color: grey;
+  box-shadow: 3px 3px 3px black;
+}
+.dropdown-content a,.menu-content a {
+  display:block;
+  font-size: 30px;
+}
+.footer{
+  background-color: #000864;
+  color: white;
+  padding: 70px;
+  margin top: 10px;
+
+
+}
+
+#button-services{
+  border-radius: 30%;
+
+}
+#button-about{
+  border-radius: 30%;
+}
+
+#button-home{
+border-radius: 30%;
+/* scroll-behavior: smooth; */
+}
+#founder{
+  /* text-align: center; */
+  /* padding-right:70%; */
+  padding-left: 5%;
+
+}
+.button-box{
+  position: absolute;
+  left: 10px;
+  top: 10px
+}
+}
+
+/* about section  */
+#about{
+  font-family: serif;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmbnVBc65FPv17zJMqthP6yPXQtjmvDPw-3xRAhsrQEv6rgMrVsw);
+  color: white;
+  background-clip: border-box;
+
+}
+h1{
+font-family: "Apple Color Emoji";
+}
+h4{
+  font-family: "Apple Color Emoji";
+  font-style: italic;
+}
