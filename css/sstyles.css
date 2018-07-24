@@ -1,5 +1,5 @@
 .jumbotron{
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYCq0CocoNQcN73OchdxhzVDDgp_cX9VeCgZ0CFHfnqMoPZvKQ);
+   background-color: #030073;
   text-align: center;
   color: white;
 
@@ -43,6 +43,8 @@ border-radius: 30%;
   top: 10px
 }
 }
+
+/* about section  */
 #about{
   font-family: serif;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmbnVBc65FPv17zJMqthP6yPXQtjmvDPw-3xRAhsrQEv6rgMrVsw);

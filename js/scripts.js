@@ -1,7 +1,7 @@
 $('.carousel').carousel({
-  interval: 2000
+  interval: 2000;
 });
 $('#myCarousel').on('slide.bs.carousel', function () {
   $('#myCarousel').on('slide.bs.carousel', function () {
-    // do something…
+
   })
