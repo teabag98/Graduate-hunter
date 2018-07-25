@@ -89,11 +89,104 @@ ul{
   text-align: center;
 }
 
+
+
+/* b. Header Styles
+/* ------------------------------------------------------------------ */
+
+header {
+   position: relative;
+   height: auto;
+
+   width: 100%;
+   background: #161415 url(../images/bg.png) no-repeat top center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   text-align: center;
+   overflow: hidden;
+}
+
+
+
+/* primary navigation
+--------------------------------------------------------------------- */
+#nav-wrap ul, #nav-wrap li, #nav-wrap a {
+	 margin: 0;
+	 padding: 0;
+	 border: none;
+	 outline: none;
+}
+
+/* nav-wrap */
+#nav-wrap {
+   font: 12px 'opensans-bold', sans-serif;
+   width: 100%;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   margin: 0 auto;
+   z-index: 100;
+   position: fixed;
+   left: 0;
+   top: 0;
+   background-color: #333;
+   display: inline-block;
+}
+/* .opaque { background-color: #333; } */
+
+/* hide toggle button */
+#nav-wrap > a.mobile-btn { display: none; }
+
+ul#nav {
+   min-height: 48px;
+   width: auto;
+
+   /* center align the menu */
+   text-align: center;
+}
+ul#nav li {
+   position: relative;
+   list-style: none;
+   height: 48px;
+   display: inline-block;
+}
+
+/* Links */
+ul#nav li a {
+
+/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+
+   display: inline-block;
+   padding: 8px 40px;
+   line-height: 32px;
+	text-decoration: none;
+   text-align: left;
+   color: #fff;
+   /* border-bottom: 1px solid white;  */
+
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	-ms-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+
+ul#nav li a:active { background-color: transparent !important; }
+ul#nav li.current a { color: #11ABB0; }
+
+
+/* line underlying of li */
+.line{
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  margin-top: 10px;
+}
 li a{
   background:blue;
   padding: 20px;
   border-radius: 5px; 
 }
+
 
   /*CONTACT SECTION STYLES*/
 
@@ -111,7 +204,8 @@ li a{
 }
 
   #contact .overlay {
-      background-color: rgba(6, 16, 163, 0.1);
+      background-color: rgb or view ￼command line instructions.
+a(6, 16, 163, 0.1);
       padding-top: 90px;
       color: #fff;
 /*        padding-bottom: 100px;*/
@@ -157,3 +251,5 @@ footer, .social {
 .facebook, .instagram, .twitter, .fa {
   margin-right: 20px;
 }
+
+
