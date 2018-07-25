@@ -141,3 +141,66 @@ li a{
   border-radius: 20px;
   padding-left: 5px;
 }
+/*CONTACT SECTION STYLES*/
+
+#contact {
+background-color: #0727da;
+/*    margin-right: 50px;*/
+margin-left: -20px;
+padding: 0;
+-webkit-background-size: cover;
+background-size: cover;
+-moz-background-size: cover;
+background-attachment: fixed;
+font-size: 20px;
+color: #72e911;
+}
+
+#contact .overlay {
+    background-color: rgb or view ￼command line instructions.
+a(6, 16, 163, 0.1);
+    padding-top: 90px;
+    color: #fff;
+/*        padding-bottom: 100px;*/
+}
+
+/*FOOTER SECTION STYLES*/
+
+footer {
+font-size: 25px;
+text-align: center;
+font-weight: 1000;
+background-color: rgba(11, 36, 119, 0.7);
+-webkit-background-size: cover;
+color: rgb(250, 253, 249);
+min-height: 210px;
+}
+
+footer a, footer a:link {
+    text-decoration: none;
+    color:#78f313;
+
+}
+
+.owner a:link, a:hover{
+    color:#09f061;
+    opacity: 0.7;
+}
+.owner {
+    font-size: 30px;
+}
+
+footer, .social {
+margin-top: -200px;
+padding-top: 140px;
+}
+
+.social, .fa {
+font-size: 85px;
+margin-left:5px;
+
+}
+
+.facebook, .instagram, .twitter, .fa {
+margin-right: 20px;
+}
