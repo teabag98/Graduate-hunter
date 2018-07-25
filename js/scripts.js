@@ -1,3 +1,4 @@
+
 // user logic
 $(document).ready(function(){
   $(".p1").hide()
@@ -38,10 +39,24 @@ $(document).ready(function(){
 
 <script type="text/javascript">
     $(document).ready(function() {
+<<<<<<< HEAD
 
 
         $().UItop({ easingType: 'easeOutQuart' });
 
+=======
+        /*
+        var defaults = {
+              containerID: 'toTop', // fading element id
+            containerHoverID: 'toTopHover', // fading element hover id
+            scrollSpeed: 1200,
+            easingType: 'linear' 
+         };
+        */
+        
+        $().UItop({ easingType: 'easeOutQuart' });
+        
+>>>>>>> df70aec1902bd733414e016464a905a424391444
     });
 </script>
 <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
@@ -106,3 +121,4 @@ function myFunction() {
         x.style.display = "none";
     }
 }
+
