@@ -3,9 +3,12 @@
   text-align: center;
   color: white;
 }
-  
+
 body{
-  background-image: url(https://media.istockphoto.com/vectors/seamless-pattern-with-graduation-cap-on-blue-background-vector-id610146456?k=6&m=610146456&s=612x612&w=0&h=SRRkSLqAD_hmX3r8aMYX0Y9hy55NVbVz1LVEMmEXAzw=);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk7u4m-_V6Y0Cfth2lrOoMEBQnM9GB_Jr2giAtm7aKbn08rgOX);
+}
+.well{
+  border-radius: 30px;
 }
 .content,.content1 {
   max-height:0px;
@@ -14,8 +17,9 @@ body{
 .drop,.menu {
   background-color: #4286f4;
   border-bottom: 2px solid black;
-  box-shadow: 3px 3px 3px #3366cc;
+  box-shadow:  3px white;
   color: #ffffff;
+
 }
 .drop ul, .menu ul {
   list-style-type: none;
@@ -43,9 +47,10 @@ input:checked ~ label{
 input:checked ~ .content, input:checked ~.content1 {
   max-height: 100%;
 }
-.content {
-  transform: scale(1);
-  transition:rotate
+#content {
+  /* transform: scale(1); */
+  /* transition:rotate */
+  background-color: white;
 }
 
 /*.eric:hover .dropdown-content,.dinah:hover .menu-content {
@@ -76,7 +81,7 @@ input:checked ~ .content, input:checked ~.content1 {
 body
 {
     background-color: #1b1b1b;
-    padding-top: 40px;
+    /* padding-top: 40px; */
 }
 .form-signin {
     max-width: 280px;
