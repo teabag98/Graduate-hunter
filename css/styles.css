@@ -13,6 +13,7 @@ body{
 .content,.content1 {
   max-height:0px;
   overflow: hidden;
+
 }
 .drop,.menu {
   background-color: #4286f4;
@@ -61,6 +62,7 @@ input:checked ~ .content, input:checked ~.content1 {
   background-color: #000864;
   color: white;
   padding: 70px;
+  width: 100%;
 
 }
 .btn{
@@ -134,7 +136,8 @@ ul{
 }
 
 li a{
-  background: orange;
-  padding: 20px;
-  border-radius: 5px;
+  background: blue;
+  padding: 30px;
+  border-radius: 20px;
+  padding-left: 5px;
 }
