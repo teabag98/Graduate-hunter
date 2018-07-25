@@ -13,6 +13,25 @@ $(document).ready(function(){
 });
 
 
+<script type="text/javascript">
+    $(document).ready(function() {
+        /*
+        var defaults = {
+              containerID: 'toTop', // fading element id
+            containerHoverID: 'toTopHover', // fading element hover id
+            scrollSpeed: 1200,
+            easingType: 'linear' 
+         };
+        */
+        
+        $().UItop({ easingType: 'easeOutQuart' });
+        
+    });
+</script>
+<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+=======
+
 /* Highlight the current section in the navigation bar
 ------------------------------------------------------*/
 
@@ -62,6 +81,7 @@ $(document).ready(function(){
       }
 
 	});
+
 function myFunction() {
     var x = document.getElementById("fullscreen_bg");
     if (x.style.display === "none") {
