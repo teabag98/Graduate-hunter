@@ -277,3 +277,15 @@ footer, .social {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
+@media screen and (min-width: 480px){
+
+}
+.span4 {
+   flex-basis: 31.20563%;
+   margin-left: 2.1277%;
+   max-width: 31.20563%;
+   flex: 0 0 auto;
+   box-sizing: border-box;
+   display: block;
+}
+@media screen and (min-width: 480px)
