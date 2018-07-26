@@ -50,12 +50,12 @@ $(document).ready(function(){
               containerID: 'toTop', // fading element id
             containerHoverID: 'toTopHover', // fading element hover id
             scrollSpeed: 1200,
-            easingType: 'linear' 
+            easingType: 'linear'
          };
         */
-        
+
         $().UItop({ easingType: 'easeOutQuart' });
-        
+
 >>>>>>> df70aec1902bd733414e016464a905a424391444
     });
 </script>
@@ -121,4 +121,3 @@ function myFunction() {
         x.style.display = "none";
     }
 }
-

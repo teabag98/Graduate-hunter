@@ -8,15 +8,20 @@ h1{
   font-weight: bold;
 
 }
+.img{
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+}
+
 h4{
   font-size: 30px;
   font-style: italic;
 }
-.marquee{
-  font-size: 50px;
+
 }
 .grid {
-    display: grid;
+   display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     background-color: white;
@@ -155,12 +160,12 @@ ul{
   text-align: center;
 }
 
-li a{
+/*li a{
   background: blue;
   padding: 30px;
   border-radius: 20px;
   padding-left: 5px;
-}
+}*/
 /*CONTACT SECTION STYLES*/
 
 #contact {
@@ -239,4 +244,460 @@ margin-right: 20px;
   transition: transform 0.3s ease, -webkit-transform 0.3s ease;
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
+}
+
+/* b. Services Header Styles
+/* ------------------------------------------------------------------ */
+header {
+   position: relative;
+   height: 800px;
+   min-height: 500px;
+   width: 100%;
+   background: #161415 url(../images/bg.png) no-repeat top center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   text-align: center;
+   overflow: hidden;
+}
+
+/* primary navigation
+--------------------------------------------------------------------- */
+#nav-wrap ul, #nav-wrap li, #nav-wrap a {
+	 margin: 0;
+	 padding: 0;
+	 border: none;
+	 outline: none;
+}
+
+/* nav-wrap */
+#nav-wrap {
+   font: 12px 'opensans-bold', sans-serif;
+   width: 100%;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   margin: 0 auto;
+   z-index: 100;
+   position: fixed;
+   left: 0;
+   top: 0;
+   background-color: #333;
+}
+/* .opaque { background-color: #333; } */
+
+/* hide toggle button */
+#nav-wrap > a.mobile-btn { display: none; }
+
+ul#nav {
+   min-height: 48px;
+   width: auto;
+
+   /* center align the menu */
+   text-align: center;
+}
+ul#nav li {
+   position: relative;
+   list-style: none;
+   height: 48px;
+   display: inline-block;
+
+}
+
+/* Links */
+ul#nav li a {
+
+/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+
+   display: inline-block;
+   padding: 8px 13px;
+   line-height: 32px;
+	text-decoration: none;
+   text-align: left;
+   color: #fff;
+
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	-ms-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+
+/*Hover effects on the nav-wrap  */
+ul#nav li a:active { background-color: transparent !important; }
+ul#nav li.current a { color: white; }
+ul#nav li.current a:hover{
+  color:  #11ABB0;
+}
+ul#nav li a:active { background-color: transparent !important; }
+ul#nav li.current2 a { color: white; }
+ul#nav li.current2 a:hover{
+  color:  #11ABB0;
+}
+ul#nav li a:active { background-color: transparent !important; }
+ul#nav li.current3 a { color: white; }
+ul#nav li.current3 a:hover{
+  color:  #11ABB0;
+}
+ul#nav li a:active { background-color: transparent !important; }
+ul#nav li.current4 a { color: white; }
+ul#nav li.current4 a:hover{
+  color:  #11ABB0;
+}
+ul#nav li a:active { background-color: transparent !important; }
+ul#nav li.current5 a { color: white; }
+ul#nav li.current5 a:hover{
+  color:  #11ABB0;
+}
+#services{
+
+}
+
+
+
+/* about section  */
+#about{
+  font-family: serif;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmbnVBc65FPv17zJMqthP6yPXQtjmvDPw-3xRAhsrQEv6rgMrVsw);
+  color: white;
+  background-clip: border-box;
+
+}
+
+
+/* b. Services Header Styles
+/* ------------------------------------------------------------------ */
+header {
+   position: relative;
+   height: 800px;
+   min-height: 500px;
+   width: 100%;
+   background: #161415 url(../images/bg.png) no-repeat top center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   text-align: center;
+   overflow: hidden;
+}
+
+/* primary navigation
+--------------------------------------------------------------------- */
+#nav-wrap ul, #nav-wrap li, #nav-wrap a {
+	 margin: 0;
+	 padding: 0;
+	 border: none;
+	 outline: none;
+}
+
+/* nav-wrap */
+#nav-wrap {
+   font: 12px 'opensans-bold', sans-serif;
+   width: 100%;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   margin: 0 auto;
+   z-index: 100;
+   position: fixed;
+   left: 0;
+   top: 0;
+   background-color: #333;
+}
+/* .opaque { background-color: #333; } */
+
+/* hide toggle button */
+#nav-wrap > a.mobile-btn { display: none; }
+
+ul#nav {
+   min-height: 48px;
+   width: auto;
+
+   /* center align the menu */
+   text-align: center;
+}
+ul#nav li {
+   position: relative;
+   list-style: none;
+   height: 48px;
+   display: inline-block;
+
+}
+
+/* Links */
+ul#nav li a {
+
+/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+
+   display: inline-block;
+   padding: 8px 13px;
+   line-height: 32px;
+	text-decoration: none;
+   text-align: left;
+   color: #fff;
+
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	-ms-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+
+/*Hover effects on the nav-wrap  */
+ul#nav li a:active { background-color: transparent !important; }
+ul#nav li.current a { color: white; }
+ul#nav li.current a:hover{
+  color:  #11ABB0;
+}
+ul#nav li a:active { background-color: transparent !important; }
+ul#nav li.current2 a { color: white; }
+ul#nav li.current2 a:hover{
+  color:  #11ABB0;
+}
+ul#nav li a:active { background-color: transparent !important; }
+ul#nav li.current3 a { color: white; }
+ul#nav li.current3 a:hover{
+  color:  #11ABB0;
+}
+ul#nav li a:active { background-color: transparent !important; }
+ul#nav li.current4 a { color: white; }
+ul#nav li.current4 a:hover{
+  color:  #11ABB0;
+}
+ul#nav li a:active { background-color: transparent !important; }
+ul#nav li.current5 a { color: white; }
+ul#nav li.current5 a:hover{
+  color:  #11ABB0;
+}
+
+/* services vertically center banner section */
+#services{
+
+}
+
+
+.before {
+   content: '';
+   display: inline-block;
+   vertical-align: middle;
+   height: 100%;
+}
+.banner {
+   display: inline-block;
+   vertical-align: middle;
+   margin: 0 auto;
+   width: 85%;
+   padding-bottom: 30px;s
+   text-align: center;
+}
+
+.banner-text { width: 100%; }
+.banner-text h1 {
+   font: 90px/1.1em 'opensans-bold', sans-serif;
+   color: #eee;
+   letter-spacing: -2px;
+   margin: 0 auto 18px auto;
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   vertical-align: middle;
+
+}
+.banner-text h3 {
+   font: 18px/1.9em 'librebaskerville-regular', serif;
+   color: #A8A8A8;
+   margin: 0 auto;
+   width: 70%;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   vertical-align: middle;
+
+}
+.banner-text h3 span,
+.banner-text h3 a {
+   color: #fff;
+}
+.banner-text hr {
+   width: 60%;
+   margin: 18px auto 24px auto;
+   border-color: #2F2D2E;
+   border-color: rgba(150, 150, 150, .1);
+   vertical-align: middle;
+
+}
+
+/* scrolldown link */
+.scrolldown a {
+   position: absolute;
+   bottom: 30px;
+   left: 50%;
+   margin-left: -29px;
+   color: #fff;
+   display: block;
+   height: 42px;
+   width: 42px;
+   font-size: 42px;
+   line-height: 42px;
+   color: #fff;
+   border-radius: 100%;
+
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
+}
+.scrolldown a:hover { color: #11ABB0; }
+
+
+/* jobs section */
+#jobs{
+
+}
+@@media screen and (min-width:480px) {
+  .container{
+    padding: 0 40px;
+  }
+}
+.container{
+
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 10px;
+  display: block;
+  box-sizing: border-box;
+
+}
+
+  @media screen and (min-width: 480px){
+.group {
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -2.1277%;
+    flex-direction: column;
+    zoom: 1;
+    box-sizing: border-box;
+    display: block;
+}
+}
+
+@media screen and (min-width: 480px){
+.span8 {
+    flex-basis: 64.53897%;
+    margin-left: 2.1277%;
+    max-width: 64.53897%;
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+}
+
+}
+
+.job-list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+  width: 100%;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+}
+
+
+
+/* Jobs Listing */
+.border--b-1-ccc {
+    border-bottom: 1px solid #ccc;
+}
+.wrapper--inline-block {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.float--left {
+    float: left;
+}
+.padding-bottom--20 {
+    padding-bottom: 20px!important;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.text--left {
+    text-align: left;
+}
+/*  */
+.p {
+    font-weight: 300;
+    margin: 0;
+    word-break: normal;
+    font-size: 16px;
+    box-sizing: border-box;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.text--left {
+    text-align: left;
+}
+
+/* 1st job listing */
+
+.job__details__user-edit {
+    display: inline-block;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+
+
+/* line underlying of li */
+.line{
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+h1.responsive-headline{
+  font-size: 45px;
+  font-style: italic;
+  padding-top: 100px;
 }
