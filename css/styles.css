@@ -2,7 +2,9 @@
    background-color:#6089E9;
   text-align: center;
   color: white;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLAwdHg6AjwwLWPj3AG1yGe7ICjSQLibpKEvIYhaMg63hqbI4a);
+  background-size: cover;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLAwdHg6AjwwLWPj3AG1yGe7ICjSQLibpKEvIYhaMg63hqbI4a
+  );
 }
 h1{
   font-weight: bold;
@@ -20,11 +22,18 @@ h4{
 }
 
 }
-.grid {
+#grid {
    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     background-color: white;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2px;
+    background-color: #777;
+    color: white;
 }
 
 body{
@@ -83,7 +92,7 @@ input:checked ~ .content, input:checked ~.content1 {
 }*/
 
 .footer{
-  background-color: #000864;
+  background-color: #777;
   color: white;
   padding: 70px;
   width: 100%;
@@ -700,4 +709,8 @@ h1.responsive-headline{
   font-size: 45px;
   font-style: italic;
   padding-top: 100px;
+}
+
+#about{
+
 }

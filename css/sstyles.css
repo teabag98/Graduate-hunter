@@ -90,11 +90,11 @@ opacity: 0.8;
   display: none;
 }
 
-/*ul{
+{
   text-decoration:none;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  text-align: center;*/
+  text-align: center;
 }
 <<<<<<< HEAD
 h1{
@@ -104,7 +104,7 @@ h4{
   font-family: "Apple Color Emoji";
   font-style: italic;
 }
-=======
+
 
 
 /* b. Header Styles

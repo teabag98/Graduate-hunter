@@ -1,9 +1,29 @@
 
 // user logic
 $(document).ready(function(){
-  $(".p1").hide()
-  $("#button-home").click(function(event){
-  $(".p1").show();
+
+
+var sections = $("section");
+	var navigation_links = $("#nav-wrap a");
+
+
+
+  var coll = document.getElementsByClassName("collapsible");
+
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  }
+
 
 
 
@@ -24,27 +44,19 @@ function myFunction() {
 }
 
 // user logic
-$(document).ready(function(){
-  $(".p1").hide()
-  $("#button-home").click(function(event){
-  $(".p1").show();
 
 
 
-
-
-});
-});
 
 
 <script type="text/javascript">
     $(document).ready(function() {
-<<<<<<< HEAD
+
 
 
         $().UItop({ easingType: 'easeOutQuart' });
 
-=======
+
         /*
         var defaults = {
               containerID: 'toTop', // fading element id
